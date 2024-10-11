@@ -1,0 +1,192 @@
+:root{
+    --var-primary:68px;
+    --var-secondari:38px;
+    --var-third:16px;
+    --var-fourt:24px;
+    --var-pfw:900;
+    --var-sfw:700;
+    --var-secon-color:#DADDD8;
+    }
+
+@media (max-width: 1024px) {  
+    body{
+        margin:10px;
+    }
+    .navbar{
+        min-width:600px;
+    }
+    .sec2{
+      background:url("images/BG\ Pattern_Tab.svg");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      margin-top: -100px;
+      height:50vh;
+    }
+    .home-cont{
+        font-size: var(--var-secondari);
+        font-weight: var(--var-pfw);
+        align-items: center;
+      }
+    .home-cont-secon{
+        font-size: var(--var-third);
+    }
+    
+    .nav-center {  
+        display: none;  
+    }  
+    
+    .hamburger {  
+        display: flex;  
+        height: 32px;
+        width:32px; 
+    }  
+    .bar{
+        background-color:#fff;
+    }
+    .mobile-menu {  
+        flex-direction: column;  
+        gap: 30px;  
+        background-color: #0E0D0D;
+        min-width: 600px;
+        border-radius: 24px;
+        z-index:999;
+        position: relative;
+        right:-100%;
+        top:180px;
+        padding:30px 0;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Sathosi, sans-serif;
+        height: fit-content;
+    }  
+
+    .mobile-menu.active {  
+        display: flex; /* Show mobile menu when active */  
+        transition: right 0.3s ease-in-out;
+        right:0;
+    }
+    .choose-container img{
+        width:300px;
+        height: 300px;
+    }  
+    .choose-cont{
+        font-size: var(--var-fourt);
+        line-height: 35px;
+    }
+    .footer-container{
+        padding: 20px;
+    }
+}  
+@media (min-width:769px) and (max-width: 1024px) {
+    .sec3-container{
+        margin-top: 81px;
+    }
+}
+@media (min-width:768px) {
+    .choose-secon-tab{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width: 820px) {
+    .sec3-container{
+        margin: 0px 20px 40px 20px;
+        max-width: 750px;
+        gap:10px;
+    }
+}
+@media screen and (max-width:600px){
+    .navbar{
+        min-width:300px;
+    }
+    .mobile-menu{
+        min-width: 350px;
+    }    
+    .get-starts{
+        display: none;
+    }
+    .btn-wrap{
+        display: block;
+    }
+    .sec1{
+        background: url("images/Background_mobile.svg");
+        height:200px;
+    }
+    .home-cont-secon span{
+        display: inline;
+      }
+    .sec2{
+      background:url("images/BG_Mobile.svg");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      margin-top: -50px;
+      height:60vh;
+    }
+    .home-cont{
+        font-size: var(--var-secondari);
+        font-weight: var(--var-pfw);
+        align-items: center;
+      }
+    .home-cont-secon{
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 23px;
+    }
+    .get-start{
+        width:fit-content;
+        justify-content: center;
+        gap:10px;
+    }
+    .view-docs{
+        margin-top: 23px;
+        justify-content: center;
+    }
+    .sec3-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 320px;
+        height: fit-content;
+        padding: 20px;
+    }
+    .sec3-in{
+        display: flex;
+        gap:20px;
+      }
+      .choose-last-row{
+        padding: 20px;
+      }
+      .choose-secon{
+        display: none;
+      }
+      .choose-secon-tab{
+        display: block;
+      }
+    .client-wrap{
+        display: block;
+    }
+    .client-in-wrap{
+        margin-top: 20px;
+    }
+    .test-container{
+        display: block;
+        height: fit-content;
+        width: fit-content;
+    }
+    .test-img{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-wrap{
+        display: block;
+    }
+    .footer-bot{
+        gap:10px;
+        justify-content: center;
+    }
+    .footer-container{
+        padding: 20px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        margin-top: 250px;
+    }
+}

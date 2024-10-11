@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teceze</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satoshi">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+   <script>
+    const toggleMenu = () => {  
+        const mobileMenu = document.querySelector('.mobile-menu');  
+        mobileMenu.classList.toggle('active');  
+    };  
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.querySelector(".navbar").classList.add("sticky");
+        } else {
+            document.querySelector(".navbar").classList.remove("sticky");
+        }
+    }
+   </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <section>
+        <div class='sec1'>
+            <div class='navbar' id="navbar">
+                <div class="hamburger" onclick="toggleMenu()">  
+                    <div class="bar"></div>  
+                    <div class="bar"></div>  
+                    <div class="bar"></div>  
+                </div>
+                <div class="nav-logo">Click It<a href="#" class="fa fa-angle-up"></a></div>
+                    <div class='nav-center'>
+                    <div>Process</div>
+                    <div>Benefits</div>
+                    <div>Services</div>
+                    <div>Portfolio</div>
+                    <div>FAQ</div>
+                    </div>
+                <button><div class='get-starts'>Get Started</div> <img src="images/Arrow_alt_lright_alt.svg" alt="img" /></button>  
+            </div>
+            <div class="mobile-menu">  
+                <div class='nav-item'>Process</div>  
+                <div class='nav-item'>Benefits</div>  
+                <div class='nav-item'>Services</div>  
+                <div class='nav-item'>Portfolio</div>  
+                <div class='nav-item'>FAQ</div>
+                <div class='nav-item' onclick="toggleMenu()">Close</div>  
+            </div>  
+        </div>
+    </section>
+    <!-- Home Section -->
+    <section>
+        <div class='sec2'>
+            <div class='home-cont'><span>Boost</span> Your Brand With</div>
+            <div class='home-cont'> Innovative <span>Digital Marketting</span></div>
+        <div class='home-cont-secon'>
+            <span>Drive Engagement and Conversions with Advanced Digital </span>
+            <span>Marketing Strategies.</span>
+        </div>
+        <div class='btn-wrap'>
+            <button class='get-start'>Get started <img src="images/Arrow_alt_lright.svg" alt="img" /></button>
+        </div>
+        <div class="trust"><hr class="trust-line"/><span>Trusted by Thousand Companies</span><hr class="trust-line"/></div>
+        </div>
+    </section>
+    <div >
+        <div class='sec3-container'>
+            <div class="sec3-in">
+                <div class="sec3-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div>Layers</div>
+                </div>
+                <div class="sec3-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div>Quotient</div>
+                </div>
+            </div>
+            <div class="sec3-in">
+                <div class="sec3-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div>Circooles</div>
+                </div>
+                <div class="sec3-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div>Hourglass</div>
+                </div>
+            </div>
+            <div class="sec3-in-last">
+                <img src="images/Avatar.svg" alt="img" />
+                <div>Command+R</div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Section -->
+     <section>
+        <div class="sec4">
+            <div class='home-cont'>Services</div>
+            <div class='home-cont-secon'>Strategic services drive digital success with tailored, comprehensive approaches.</div>
+        </div>
+        <div class="service-wrapper">
+            <div class="service-container">
+                <img src="images/reshot-icon-digital-marketing-SYUT7J34LH.svg" alt="img" />
+                <div class='home-cont-secon'>SEO Marketting</div>
+            </div>
+            <div class="service-container">
+                <img src="images/writer_3079943 (1).png" alt="img" />
+                <div class='home-cont-secon'>Content Marketting</div>
+            </div>
+            <div class="service-container">
+                <img src="images/user-generated-content_12822703.png" alt="img" />
+                <div class='home-cont-secon'>Social Media <div>Management</div></div>
+            </div>
+        </div>
+        <div class="service-wrapper">
+            <div class="service-container">
+                <img src="images/ppc.png" alt="img" />
+                <div class='home-cont-secon'>PPC</div>
+            </div>
+            <div class="service-container">
+                <img src="images/market-research.png" alt="img" />
+                <div class='home-cont-secon'>Email Marketting</div>
+            </div>
+        </div>
+    </section>
+     <!-- Why Choose Us -->
+    <section class="choose-wrap">
+        <div class="choose-sec">
+            <div class="choose-title choose-last-row">Why Choose Us?<div class="choose-line"></div></div>
+            <div class="row choose-last-row">
+                <div class="col">
+                    <div class="choose-container">
+                        <img src="images/image 3.svg" alt="img" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="choose-cont">Solutions Tailored Specifically to Your Business Needs</div>
+                    <div class="choose-cont-secon">We provide customized solutions for your business needs, ensuring relevance and success.</div>
+                    <div class='btn-wrap'>
+                        <button class='get-start'>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row choose-last-row choose-secon">
+                <div class="col">
+                    <div class="choose-cont">Creative Excellence Elevates Every Project</div>
+                    <div class="choose-cont-secon">Creative excellence drives our work. From concept to execution, we aim for exceptional results.</div>
+                    <div class='btn-wrap'>
+                        <button class='get-start'>Read More</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="choose-container">
+                        <img src="images/Rectangle 75.svg" alt="img" />
+                    </div>
+                </div>
+            </div>
+            <div class="row choose-last-row choose-secon-tab">
+                <div class="col">
+                    <div class="choose-container">
+                        <img src="images/Rectangle 75.svg" alt="img" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="choose-cont">Creative Excellence Elevates Every Project</div>
+                    <div class="choose-cont-secon">Creative excellence drives our work. From concept to execution, we aim for exceptional results.</div>
+                    <div class='btn-wrap'>
+                        <button class='get-start'>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row choose-last-row">
+                <div class="col">
+                    <div class="choose-container">
+                        <img src="images/Rectangle 73.svg" alt="img" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="choose-cont">Client Satisfaction is Our Main Focus</div>
+                    <div class="choose-cont-secon">Our main goal is your satisfaction, and work tirelessly to ensure that you are pleased with the results we achieve together.</div>
+                    <div class='btn-wrap'>
+                        <button class='get-start'>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="client-container">
+            <div class="work-title">Work with Click it new Tech</div>
+            <div class="client-wrap">
+                <div class="client-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div class="client-no">10000+</div>
+                    <div class="client-stat">Happy Customerss</div>
+                </div>
+                <div class="client-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div class="client-no">20000+</div>
+                    <div class="client-stat">Success Processes</div>
+                </div>
+                <div class="client-in-wrap">
+                    <img src="images/Avatar.svg" alt="img" />
+                    <div class="client-no">10+ Years</div>
+                    <div class="client-stat">of Experience</div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- Testimonial -->
+     <section class="test-wrap">
+        <div>
+            <div class="testimonial">Testimonial</div>
+            <div class="work-title">Customer is Our Top Priority</div>
+            <div class="client-stat">We survey all of our clients, the results of which go directly to our CEO.</div>
+        </div>
+        
+        <div id="carouselExampleControls" class="carousel slide test-wid" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="test-container">
+                    <div>
+                        <div class="test-title">Gymstory</div>
+                        <div class="test-subtit">Kornix is the best digital agency i haveever seen! Highly Recommended!</div>
+                        <div class="test-cont">I recently hired Ideapeel for a custom web development
+                            project and couldn't be happier with the results. The team
+                            was able to bring my unique ideas to life and create a
+                            website that truly stands out.
+                        </div>
+                        <div class="test-subtit">Diana Loreza</div>
+                        <div class="test-cont test-desig">Director of Gymstory</div>
+                    </div>
+                    <div class="test-img">
+                        <img src="images/Profile.svg" alt="img" />
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="test-container">
+                    <div>
+                        <div class="test-title">Gymstory</div>
+                        <div class="test-subtit">Kornix is the best digital agency i haveever seen! Highly Recommended!</div>
+                        <div class="test-cont">I recently hired Ideapeel for a custom web development
+                            project and couldn't be happier with the results. The team
+                            was able to bring my unique ideas to life and create a
+                            website that truly stands out.
+                        </div>
+                        <div class="test-subtit">Diana Loreza</div>
+                        <div class="test-cont test-desig">Director of Gymstory</div>
+                    </div>
+                    <div class="test-img">
+                        <img src="images/profile.png" alt="img" />
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="test-container">
+                    <div>
+                        <div class="test-title">Gymstory</div>
+                        <div class="test-subtit">Kornix is the best digital agency i haveever seen! Highly Recommended!</div>
+                        <div class="test-cont">I recently hired Ideapeel for a custom web development
+                            project and couldn't be happier with the results. The team
+                            was able to bring my unique ideas to life and create a
+                            website that truly stands out.
+                        </div>
+                        <div class="test-subtit">Diana Loreza</div>
+                        <div class="test-cont test-desig">Director of Gymstory</div>
+                    </div>
+                    <div class="test-img">
+                        <img src="images/Avatar 2.svg" alt="img" />
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+     </section>
+     <!-- Footer -->
+      <section class="footer-container">
+        <div class="footer-wrap">
+            <div class="footer-first">
+                <div class="footer-title">Click It<a href="#" class="fa fa-angle-up"></a></div>
+                <div>Click It - is a leading digital marketing agency dedicated to driving success for businesses
+                    online. With expertise in SEO, PPC, social media, content creation, and more, we offer
+                    tailored solutions to maximize ROI. In the USA, UK, and Canada working with top- tier clients, from start-ups to enterprises.
+                </div>
+            </div>
+            <div>
+                <div class="footer-title">Our Services</div>
+                <ul>
+                    <li>SEO Marketting</li>
+                    <li>Research Topic Trends</li>
+                    <li>Email Marketing</li>
+                    <li>Google PPC</li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-title">Our Location</div>
+                <ul>
+                    <li>USA</li>
+                    <li>UK</li>
+                    <li>Canada</li>
+                    <li>Virtual</li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-title">Contact US</div>
+                <ul>
+                    <li class="contact-mail">info@kronix.com</li>
+                    <li>+91 524258632</li>
+                </ul>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+        <hr />
+        <div class="footer-wrap">
+            <div class="footer-bot">
+                <div>Process</div>
+                <div>Benefits</div>
+                <div>Services</div>
+                <div>Portfolio</div>
+                <div>FAQ</div>
+            </div>
+            <div>@2024-All rights reserved</div>
+        </div>
+      </section>
+</body>
+</html>
